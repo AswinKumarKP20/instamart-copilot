@@ -1,0 +1,19 @@
+# Environments
+.venv/
+venv/
+.env
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Build output and stray folders
+.dist/
+notebooks/data/
+
+# Generated, rebuilt by generate_data.py / run_project.py
+data/instamart.db
+state/
+outputs/refund_ledger.jsonl
+outputs/lapse_model.joblib
